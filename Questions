@@ -1,0 +1,21 @@
+JDK:Java Development Kit (used to develop java apps which are platform independant)
+
+JRE: Java Runtime Environment (used to run java apps) - is an implementation of JVM which is platform dependant. 
+
+Question:  What are the scenarios to select instance variable, static variable and local variable?
+		//Using instance variables, when we are dealing with many instances of a object. These instances of a object independently change the value of their own adopted variables without changing the value of original instance variables.
+		//Using static variables, when we want them to be accessed by all methods in the class without initiating an instance of a object , and for faster execution and save memory (because it is stored in class/method area in memory, and only one static member needs to maintained) 
+		//Using local variables, when we don't want them to be accessed by any other methods in the class, except the method itself. 
+
+
+
+Question3:  Whats difference between literal approach and new keyword approach of String object creation?
+
+Question4:  Whats difference between == operator and equals() ?
+
+Question5:  Is String mutable?
+
+Question6:   Whats difference among String, StringBuffer and StringBuilder?
+
+
+
