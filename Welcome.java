@@ -4,6 +4,7 @@ public class Welcome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*
 		System.out.println("Welcome to java class");
 		
 		int num3 = 100;
@@ -16,7 +17,11 @@ public class Welcome {
 		
 		System.out.println( count++ + count--);
 		System.out.println(--count + count++);
+		*/
 		
+		Employee emp1=new Employee();  //object is created with some memory. Object exists physically 
+		//object is instance(physical existence) of a class
+		System.out.println(emp1);  // com.mapmay2.Employee@7852e922
 	}
 
 }

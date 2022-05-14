@@ -7,7 +7,9 @@ Question:  What are the scenarios to select instance variable, static variable a
 		//Using static variables, when we want them to be accessed by all methods in the class without initiating an instance of a object , and for faster execution and save memory (because it is stored in class/method area in memory, and only one static member needs to maintained) 
 		//Using local variables, when we don't want them to be accessed by any other methods in the class, except the method itself. 
 
+Question1: Is JVM platform independent? 
 
+Question2:  What are the scenarios to select instance variable, static variable and local variable?
 
 Question3:  Whats difference between literal approach and new keyword approach of String object creation?
 
@@ -16,6 +18,21 @@ Question4:  Whats difference between == operator and equals() ?
 Question5:  Is String mutable?
 
 Question6:   Whats difference among String, StringBuffer and StringBuilder?
+	// String is immutable, if mutability is required we should use stringbuffer or string builder
+	//Stringbuffer is synchronized and have thread safety where stringbuilder is not, Hence string builder is faster
 
 
+What is inheritance?
+	//allows code reusability from a parent class
 
+Question7:  what is the use of this and super keywords? 
+
+Question8:  What is the order of constructor execution in inheritance? 
+
+Question9:  whats use of this() and super()? 
+
+Question10:  Briefly describe polymorphism?
+
+Question11:  what is encapsulation. Give an example? 
+
+Question12:  Scenarios to select  interface, abstract class and concrete classes?
